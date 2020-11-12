@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row mt-5">
+        <div class="col col-6 offset-3">
+            <div class="card">
+                <div class="card-header text-center text-info text-uppercase">
+                    Sign up Please
+                </div>
+                <div class="card-body">
+                    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+                        <div class="form-group row">
+                            <label for="email" class="col-sm-3 col-from-label">Email</label>
+                            <div class="col-sm-9">
+                                <input type="email" name="email" id="email" placeholder="Enter Email" class="form-control" ngModel required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="Password" class="col-sm-3 col-from-label">Password</label>
+                            <div class="col-sm-9">
+                                <input type="password" name="password" id="password" placeholder="Enter Password" class="form-control" ngModel required>
+                                <small class="form-text text-muted">
+                                    Minimum length should be 6
+                                </small>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center">
+                            <button class="btn btn-primary" type="submit">Sign Up</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "github-searcher-295102": {
+      "hosting": {
+        "github-login-firebase": [
+          "github-searcher-295102"
+        ]
+      }
+    }
+  }
+}
